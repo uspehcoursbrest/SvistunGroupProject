@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Оформление заказа</title>
 </head>
 <body>
 <header>
@@ -32,12 +32,118 @@
 </header>
 <div class="container">
     <div class="content">
-
+        <ul class="bredcrumbs">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li></li>
+        </ul>
+        <div class="checkout">
+            <h1></h1>
+            <form action="#">
+                <div class="item">
+                    <label for="choiceTown">Выбор города<span></span></label>
+                    <select name="choiceTown" id="choiceTown">
+                        <option value="Москва, Московская обл., Россия">Москва, Московская обл., Россия</option>
+                        <option value="Санкт-Петербург, Ленинградская обл., Россия">Санкт-Петербург, Ленинградская
+                            обл.,
+                            Россия
+                        </option>
+                        <option value="Рязань, Рязанская обл., Россия">Рязань, Рязанская обл., Россия</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label>Способ доставки</label>
+                    <ul>
+                        <li>
+                            <input type="radio" name="text" id="delivery">
+                            <label for="delivery">Доставка</label>
+                            <span></span>
+                            <p></p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <input type="radio" name="text" id="expressDelivery">
+                            <label for="expressDelivery">Експресс доставка 450 р</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="text" id="asAGift">
+                            <label for="asAGift">Доставить в подарок 450 р</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="text" id="pickup">
+                            <label for="pickup">Самовывоз из пункта выдачи заказов 0 р</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <label>Адрес доставки</label>
+                    <div>
+                        <div>
+                            <label for="street">Улица<span>*</span></label>
+                            <input type="text" name="street" id="street">
+                        </div>
+                        <div>
+                            <label for="region">Район<span>*</span></label>
+                            <input type="text" name="region" id="region">
+                        </div>
+                        <div>
+                            <label for="house">Дом<span>*</span></label>
+                            <input type="text" name="house" id="house">
+                        </div>
+                        <div>
+                            <label for="housing">Корпус<span>*</span></label>
+                            <input type="text" name="housing" id="housing">
+                        </div>
+                        <div>
+                            <label for="apartment">Квартира/Офис<span>*</span></label>
+                            <input type="text" name="apartment" id="apartment">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <label for="message">Дополнительно(номер домофона, номер офиса и т.д)</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="item">
+                        <label>Способ оплаты</label>
+                        <ul>
+                            <li>
+                                <input type="radio" name="text" id="uponReceipt">
+                                <label for="uponReceipt">Оплата при получении</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="text" id="payElectronic">
+                                <label for="payElectronic">Оплата электронным способом(Робокасса)</label>
+                            </li>
+                        </ul>
+                        <div class="item">
+                            <label>Ваши данные</label>
+                            <div>
+                                <div>
+                                    <label for="name">Имя<span>*</span></label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div>
+                                    <label for="email">Электронная почта<span>*</span></label>
+                                    <input type="text" name="email" id="email">
+                                </div>
+                                <div>
+                                    <label for="phone">Номер телефона<span>*</span></label>
+                                    <input type="text" name="phone" id="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <input type="submit" value="Продолжить">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 <footer>
-    <div class="conteiner">
-        <ul class="footmenu">
+    <div class="container">
+        <ul class="footMenu">
             <li>
                 <ul>
                     <li><a href="#"></a></li>
@@ -57,7 +163,7 @@
             <a href="#"></a>
             <a href="#"></a>
             <span></span>
-            <div class="soclincs">
+            <div class="socLinks">
                 <span></span>
                 <a href="#"></a>
                 <a href="#"></a>
@@ -68,9 +174,7 @@
             <span></span>
             <span></span>
             <span></span>
-            <span>
-                <a href="#"></a>
-            </span>
+            <span><a href="#"></a></span>
         </div>
     </div>
 </footer>
