@@ -82,6 +82,17 @@ header .icon-user {
 header .icon-phone {
     font-size: 20px;
 }
+
+.content .sale {
+    width: 304px;
+    height: 360px;
+}
+
+.content .slider {
+    width: 640px;
+    height: 360px;
+}
+
 .advantages .item span {
     font-size: 14px;
     font-weight: bold;
@@ -152,6 +163,11 @@ header .icon-phone {
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+.card .small {
+    width: 50px;
+    height: 50px;
 }
 
 .card a {
@@ -244,3 +260,115 @@ footer a {
 footer .soclincs a {
     font-size: 21px;
 }
+
+header .menu  .corp {
+    color: #ff7200;
+}
+
+.content .caption {
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.content .caption a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.corpClients .form>span {
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.corpClients form {
+    background-color: #f9f9f9;
+}
+
+.corpClients form label {
+    font-size: 13px;
+    line-height: 22px;
+    font-style: italic;
+    color: #666666;
+}
+
+.corpClients .logo>label {
+    font-size: 13px;
+    line-height: normal;
+    font-style: normal;
+    color: #333333;
+}
+
+.corpClients .logo span {
+    font-size: 11px;
+    color: #999999;
+}
+
+.corpClients .logo li label {
+    font-size: 13px;
+    line-height: 22px;
+    font-style: normal;
+    color: #666666;
+}
+
+.corpClients .input a {
+    font-size: 13px;
+    line-height: 22px;
+    font-style: normal;
+    color: #229647;
+}
+
+.corpClients .input span {
+    font-size: 13px;
+    color: #999999;
+}
+
+.corpClients .figure option {
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.corpClients .date input {
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.corpClients .info textarea {
+    width: 280px;
+    height: 125px;
+}
+
+.corpClients form button {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #ff7200;
+    border: none;
+}
+
+.product span {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.product p {
+    font-size: 13px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.product a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #64ba4a;
+    text-decoration: none;
+}
+
+
+
