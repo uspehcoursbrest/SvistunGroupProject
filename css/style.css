@@ -373,10 +373,11 @@ header .menu  .corp {
     color: #666666;
 }
 
-.corpClients .input a {
+.corpClients .input label span {
     font-size: 13px;
     line-height: 22px;
     font-style: normal;
+    text-decoration: underline;
     color: #229647;
 }
 
