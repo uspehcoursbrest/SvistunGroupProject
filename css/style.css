@@ -273,7 +273,7 @@ header .icon-phone {
 
 .tabs li {
     display: inline-block;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 .info .tabContent {
@@ -472,5 +472,99 @@ header .menu  .corp {
     color: #0069b4;
 }
 
+.content .breadcrumbs li,
+.content .breadcrumbs li a {
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #999999;
+}
 
+.container .checkout h1 {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.content .citySelection label {
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
+    font-style: italic;
+}
+
+.content .citySelection select* {
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.content h2 {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.delivery ul li label* {
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.delivery ul p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.delivery ul .orange {
+    color: #f26522;
+}
+
+.content .deliveryAddress label {
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
+    font-style: italic;
+}
+
+.content .deliveryAddress span {
+    color: #ed1c24;
+}
+
+.content .paymentMeth label {
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+    font-style: normal;
+}
+
+.content .paymentMeth p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.content .yourDate label{
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
+    font-style: italic;
+}
+
+.content .yourDate span {
+    color: #ed1c24;
+}
+
+.content .yourDate .dateButton input {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    width: 185px;
+    background-color: #ea5b0c;
+    border: none;
+}
 
