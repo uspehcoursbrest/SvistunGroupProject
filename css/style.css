@@ -1,5 +1,8 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+
 }
 
 body {
@@ -409,6 +412,28 @@ header .icon-phone {
 
 .info .title {
     text-transform: uppercase;
+    padding-left: 27px;
+    position: relative;
+    display: block;
+}
+
+.info .title::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid #333333;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -3px;
+    transition: all 0.3s;
+}
+
+.info .title.active::before {
+    transform: rotate(180deg);
 }
 
 footer {
@@ -609,6 +634,59 @@ header .menu  .corp {
     line-height: 22px;
     text-decoration: none;
     color: #999999;
+}
+
+.orderList li {
+    padding-left: 40px;
+}
+
+.orderList label {
+    position: relative;
+    padding-left: 40px;
+    margin-left: -40px;
+}
+
+.radioBtn {
+    display: none;
+}
+
+.radioBtn:not(checked) + label::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.radioBtn:not(checked) + label::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    background-color: #51bf87;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.radioBtn:checked + label::before {
+    border-color: #51bf87;
+}
+
+.radioBtn:checked + label::after {
+    opacity: 1;
+}
+
+.radioBtn + label {
+    cursor: pointer;
 }
 
 .container .checkout h1 {
