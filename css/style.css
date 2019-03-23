@@ -482,6 +482,8 @@ footer .soclincs a {
 
 /*CorpClients*/
 
+
+
 header .menu  .corp {
     color: #ff7200;
 }
@@ -788,84 +790,55 @@ margin-top: 30px;
     color: #0069b4;
 }
 
+.content .news h1 {
+    padding: 25px 0px 50px;
+}
+
+.content .news h2 {
+    margin: 0;
+}
+
+.content .newsImg {
+    background-color: #b3b3b3;
+    width: 100%;
+    height: 205px;
+    margin: 20px 0;
+}
+
+.newsContent p + p {
+    padding-top: 30px;
+}
+
+.news .moreNews {
+    display: inline-block;
+    margin: 40px 0;
+}
+
 /*order*/
-
-.content .breadcrumbs li,
-.content .breadcrumbs li a {
-    font-size: 12px;
-    line-height: 22px;
-    text-decoration: none;
-    color: #999999;
-}
-
-.orderList li {
-    padding-left: 40px;
-}
-
-.orderList label {
-    position: relative;
-    padding-left: 40px;
-    margin-left: -40px;
-}
-
-.radioBtn {
-    display: none;
-}
-
-.radioBtn:not(checked) + label::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 22px;
-    height: 22px;
-    border: 2px solid #d4d4d4;
-    border-radius: 50%;
-    transition: all 0.3s;
-}
-
-.radioBtn:not(checked) + label::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    width: 8px;
-    height: 8px;
-    background-color: #51bf87;
-    border-radius: 50%;
-    opacity: 0;
-    transition: all 0.3s;
-}
-
-.radioBtn:checked + label::before {
-    border-color: #51bf87;
-}
-
-.radioBtn:checked + label::after {
-    opacity: 1;
-}
-
-.radioBtn + label {
-    cursor: pointer;
-}
 
 .container .checkout h1 {
     font-size: 25px;
     line-height: 22px;
     font-weight: 600;
     color: #333333;
+    padding: 24px 0px;
+}
+
+.citySelection {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 26px;
 }
 
 .content .citySelection label {
     font-size: 13px;
+    display: block;
     line-height: 22px;
     color: #666666;
     font-style: italic;
+    padding-bottom: 6px;
 }
 
-.content .citySelection select* {
+.content .citySelection select * {
     font-size: 13px;
     line-height: 22px;
     color: #666666;
@@ -876,22 +849,37 @@ margin-top: 30px;
     line-height: 22px;
     font-weight: 600;
     color: #333333;
+    margin: 22px 0px 26px;
 }
 
-.delivery ul li label* {
+.delivery ul li label * {
     font-size: 13px;
     line-height: 19px;
     color: #333333;
+}
+
+.delivery .orderList {
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .delivery ul p {
     font-size: 12px;
     line-height: 18px;
     color: #666666;
+    padding-bottom: 23px;
 }
 
 .delivery ul .orange {
     color: #f26522;
+    margin-top: -24px;
+}
+
+.delivery label {
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .content .deliveryAddress label {
@@ -899,10 +887,23 @@ margin-top: 30px;
     line-height: 22px;
     color: #666666;
     font-style: italic;
+    display: block;
+    padding-bottom: 5px;
 }
 
 .content .deliveryAddress span {
     color: #ed1c24;
+}
+
+.deliveryAddress {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 23px;
+}
+
+.deliveryAddress .message {
+    display: block;
+    float: left;
+    margin-bottom: 50px;
 }
 
 .content .paymentMeth label {
@@ -910,19 +911,33 @@ margin-top: 30px;
     line-height: 19px;
     color: #333333;
     font-style: normal;
+    font-weight: 600;
 }
 
 .content .paymentMeth p {
     font-size: 12px;
     line-height: 18px;
     color: #666666;
+    padding-top: 9px;
 }
 
-.content .yourDate label{
+.paymentMeth {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 21px;
+
+}
+
+.yourDate {
+    padding-top: 20px;
+}
+
+.content .yourDate label {
     font-size: 13px;
     line-height: 22px;
     color: #666666;
     font-style: italic;
+    display: block;
+    padding-top: 15px;
 }
 
 .content .yourDate span {
@@ -937,5 +952,53 @@ margin-top: 30px;
     width: 185px;
     background-color: #ea5b0c;
     border: none;
+    margin-top: 34px;
+    margin-bottom: 67px;
 }
 
+.content .checkout .citySelection select {
+    width: 285px;
+    height: 25px;
+}
+
+.deliveryAddress input {
+    width: 288px;
+    height: 25px;
+}
+
+.numHouse div + div {
+    margin-left: 34px;
+}
+
+.deliveryAddress .numHouse {
+    width: 290px;
+    float: left;
+}
+
+.deliveryAddress .numHouse div:first-child {
+    float: left;
+}
+
+.deliveryAddress .numHouse div:nth-child(2) {
+    float: left;
+}
+
+.deliveryAddress .numHouse div:last-child {
+    float: left;
+}
+
+.numHouse div:first-child input {
+    width: 58px;
+}
+
+.numHouse div:nth-child(2) input {
+    width: 58px;
+}
+
+.numHouse div:last-child input {
+    width: 100px;
+}
+.content .yourDate input {
+    width: 288px;
+    height: 25px;
+}
