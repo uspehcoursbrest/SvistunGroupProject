@@ -816,6 +816,121 @@ margin-top: 30px;
 
 /*order*/
 
+.content .breadcrumbs li,
+.content .breadcrumbs li a {
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #999999;
+}
+
+.content .news h1 {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.content .news h2 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.content .news span {
+    font-size: 12px;
+    line-height: 22px;
+    color: #aaaaaa;
+}
+
+.content .news p {
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.content .moreNews {
+    font-size: 13px;
+    line-height: 22px;
+    color: #0069b4;
+}
+.orderList li {
+    padding-left: 40px;
+}
+.orderList label {
+    position: relative;
+    padding-left: 40px;
+    margin-left: -40px;
+}
+.radioBtn {
+    display: none;
+}
+.radioBtn:not(checked) + label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.radioBtn:not(checked) + label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    background: #51df87;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.radioBtn:checked + label::before {
+    border-color: #51df87;
+}
+.radioBtn:checked + label::after {
+    opacity: 1;
+}
+.radioBtn + label {
+    cursor: pointer;
+}
+.content .breadcrumbs li,
+.content .breadcrumbs li a {
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #999999;
+    display: inline-block;
+}
+
+.content .breadcrumbs li + li {
+    margin-left: 3px;
+}
+
+.content {
+    position: relative;
+}
+
+.ofor::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border-top: 7px solid #00a48c;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    margin-bottom: -138px;
+    margin-left: 268px;
+}
+
 .container .checkout h1 {
     font-size: 25px;
     line-height: 22px;
