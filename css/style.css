@@ -170,11 +170,19 @@ header .icon-phone {
 .banner .sale {
     width: 305px;
     height: 360px;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner .slider {
     width: 640px;
     height: 360px;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content .sale {
@@ -254,7 +262,7 @@ header .icon-phone {
     color: rgba(255,255,255,0.5);
     display: table-cell;
     vertical-align: middle;
-    padding-left: 25px;
+    padding-left: 6px;
 }
 
 .subscribe .wrap {
@@ -278,6 +286,10 @@ header .icon-phone {
 .filter li a {
     text-decoration: none;
     color: #666666;
+}
+
+.filterSelect {
+    display: none;
 }
 
 .filter + .cards {
@@ -490,6 +502,7 @@ footer {
     color: #ffffff;
     background-color: #64ba4a;
     padding: 20px 0;
+    position: relative;
 }
 
 footer .copyright span {
@@ -519,6 +532,10 @@ footer .soclincs a {
 .footContacts {
     width: 25%;
     float: left;
+}
+
+.soclincs div {
+    display: inline-block;
 }
 
 .copyright {

@@ -2,11 +2,14 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
 
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 <body>
 <header>
@@ -71,7 +74,7 @@
                     <input type="text" id="send" placeholder="Введите ваш e-mail">
                     <div class="wrap">
                         <button>Подписаться на рассылку</button>
-                        <span>Обещаем НЕ спамить</span>
+                        <span>Обещаем <br> НЕ спамить</span>
                     </div>
                 </form>
             </div>
@@ -89,6 +92,19 @@
                     <li><a href="#">Любимой</a></li>
                     <li><a href="#">Лучшему другу</a></li>
                 </ul>
+                <div class="filterSelect">
+                    <select name="gift" id="giftFilter">
+                        <option value="1">Все</option>
+                        <option value="2">Хиты</option>
+                        <option value="3">Новинки</option>
+                        <option value="4">Распродажа</option>
+                        <option value="5">День рожедния</option>
+                        <option value="6">8 марта</option>
+                        <option value="7">Любимому</option>
+                        <option value="8">Любимой</option>
+                        <option value="9">Лучшему другу</option>
+                    </select>
+                </div>
                 <div class="view">
                     <span></span>
                     <span></span>
@@ -302,12 +318,13 @@
             </ul>
             <div class="footContacts">
                 <a href="#">8 (945) 648-8-456</a>
-                <a href="#">ecocheloveki@gmail.com пн-пт 10:00 - 19:00</a>
+                <a href="#">ecocheloveki@gmail.com</a>
+                <span>пн-пт 10:00 - 19:00</span>
                 <div class="soclincs">
                     <span>Ищите нас здесь</span>
-                    <a href="#" class="icon-soc1"></a>
+                    <div><a href="#" class="icon-soc1"></a>
                     <a href="#" class="icon-soc2"></a>
-                    <a href="#" class="icon-soc3"></a>
+                    <a href="#" class="icon-soc3"></a></div>
                 </div>
             </div>
             <div class="copyright">
