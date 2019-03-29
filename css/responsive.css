@@ -133,4 +133,153 @@
     .container {
         width: 100%;
     }
+
+    .banner {
+        display: none;
+    }
+
+    .advSub {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .mobileWrap {
+        display: table;
+        width: 100%;
+    }
+
+    .menuMobile {
+        cursor: pointer;
+    }
+
+    .menuMobile span {
+        display: block;
+        margin-bottom: 7px;
+        height: 5px;
+        width: 45px;
+        background-color: #ffffff;
+        border-radius: 2px;
+    }
+
+    .menuDropdown a {
+        font-size: 13px;
+        line-height: 28px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .basketMobile a {
+        display: inline-block !important;
+        width: 44px !important;
+        height: 37px !important;
+        background-position: center !important;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    header.mobile {
+        display: block;
+    }
+
+    .menuMobile,
+    .logoMobile,
+    .basketMobile {
+        display: table-cell;
+        width: 25%;
+        vertical-align: middle;
+    }
+
+    header,
+    .banner,
+    .advSub,
+    .info {
+        display: none;
+    }
+
+    .cards {
+        display: block !important;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+
+    .card .img {
+        height: 270px !important;
+    }
+
+
+    .logoMobile {
+        width: 50%;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .basketMobile {
+        text-align: right !important;
+    }
+
+    .mobileSub label {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 14px;
+        color: #666666;
+    }
+
+    .mobileSub input {
+        float: left;
+        padding: 0 10px;
+        width: 66.6666%;
+        height: 26px;
+        line-height: 26px;
+        color: #999999;
+        outline: none;
+        border: 1px solid #e8e8e8;
+    }
+
+    .mobileSub button {
+        float: right;
+        width: 33.3333%;
+        line-height: 45px;
+        color: #ffffff;
+        background-color: #259b43;
+        border: none;
+        outline: none;
+
+    }
+
+    .mobileSub {
+        display: block;
+    }
+
+    .footContacts {
+        margin-bottom: 20px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .copyright {
+        width: 50%;
+        /*text-align: center;*/
+    }
+
+    .soclincs div {
+        position: relative;
+        bottom: 0;
+    }
+
+    .soclincs div {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
 }
