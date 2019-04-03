@@ -37,8 +37,18 @@ $(document).ready(function () {
     btnUp.click(function () {
         $('body,html').animate({scrollTop: 0}, 500);
         return false;
-
     });
+    var slider = $('.slides');
+    slider.owlCarousel( {
+        items: 1,
+            dotsContainer: '.dots',
+            loop: true,
+            autoplayHoverPause: true
+    })
+    $("#tabs").tabs();
+
+    $('select').selectric();
+
 });
 
 
