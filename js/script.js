@@ -31,9 +31,7 @@ $(document).ready(function () {
         } else {
             btnUp.fadeOut();
         }
-
     });
-
     btnUp.click(function () {
         $('body,html').animate({scrollTop: 0}, 500);
         return false;
@@ -45,6 +43,7 @@ $(document).ready(function () {
             loop: true,
             autoplayHoverPause: true
     })
+
     $("#tabs").tabs();
 
     $('select').selectric();
